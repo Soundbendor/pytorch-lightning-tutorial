@@ -1,0 +1,8 @@
+# model/lstm.yaml
+# @package _group_/model
+_target_: model.LSTMClassifier
+hidden_size: 256
+num_layers: 2
+num_classes: 10
+bidirectional: true
+dropout: 0.2

@@ -1,0 +1,7 @@
+# conf/data/dataset.yaml
+# @package _group_/model
+_target_: data.UrbanSoundDataModule
+annotations_file: "/nfs/guille/eecs_research/soundbendor/datasets/urbansounds8k/UrbanSound8K/metadata/UrbanSound8K.csv"
+audio_dir: "/nfs/guille/eecs_research/soundbendor/datasets/urbansounds8k/UrbanSound8K/audio"
+target_sample_rate: 22050
+num_samples: 22050
